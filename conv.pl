@@ -14,7 +14,7 @@ use strict;
 use warnings;
 
 my ($urls);
-my @categories = ('adv','porn','warez','anonvpn','spyware','redirector','dating','drug','gamble','remotecontrol');$
+my @categories = ('adv','porn','warez','anonvpn','spyware','redirector','dating','drug','gamble','remotecontrol');
 
 for my $c (0 .. (scalar(@categories) - 1)) {
         open (my $list,'<',"./BL/$categories[$c]/domains");
